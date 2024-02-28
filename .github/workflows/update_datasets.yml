@@ -2,6 +2,7 @@ name: Update datasets
 
 on:
   workflow_dispatch:
+  push:
   schedule:
     # At 11:00 by UTC https://crontab.guru
     - cron: '00 11 * * *'
