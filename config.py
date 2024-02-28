@@ -11,7 +11,7 @@ DATASET_PATH = BASE_PATH / "datasets"
 DATASET_JSON_PATH = BASE_PATH / "datasets" / "dataset.json"
 
 
-OPENAI_API_KEY = os.environ.get("OPENAI_API")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 TELEGRAM_API_ID = os.environ.get("TELEGRAM_API_ID")
 TELEGRAM_API_HASH = os.environ.get("TELEGRAM_API_HASH")
