@@ -1,6 +1,9 @@
+import csv
 import datetime
 import json
 import re
+from dataclasses import fields, asdict
+
 import regex_spm
 
 import config
@@ -362,3 +365,10 @@ def export_datasets():
         record_dict = {"records": records}
         json_str = json.dumps(record_dict, cls=EnhancedJSONEncoder, ensure_ascii=False, indent=2)
         f.write(json_str)
+
+    # Export to CSV
+    with open(config.DATASET_CSV_PATH, 'w') as f:
+        flds = [fld.name for fld in fields(KPZSURecord)]
+        w = csv.DictWriter(f, flds)
+        w.writeheader()
+        w.writerows([asdict(prop) for prop in records])

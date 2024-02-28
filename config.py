@@ -9,6 +9,7 @@ LAST_PROCESSED_MESSAGE_ID_PATH = BASE_PATH / "raw" / "last_processed_message_id.
 
 DATASET_PATH = BASE_PATH / "datasets"
 DATASET_JSON_PATH = BASE_PATH / "datasets" / "dataset.json"
+DATASET_CSV_PATH = BASE_PATH / "datasets" / "dataset.csv"
 
 
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
