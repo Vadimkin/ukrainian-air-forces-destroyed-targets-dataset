@@ -9535,6 +9535,38 @@
       "helicopter_mi_8": null,
       "plane_a_50": null,
       "plane_il_22": null
+    },
+    {
+      "checkpoint_date": "2024-03-02",
+      "checkpoint_time": "18:00:00",
+      "uav_drones": null,
+      "shahed": null,
+      "orlan": null,
+      "orion": null,
+      "lancet": null,
+      "merlin": null,
+      "granat_4": null,
+      "zala": null,
+      "mohajer_6": null,
+      "missiles": null,
+      "ballistic_missiles": null,
+      "missile_kh_31p": null,
+      "cruise_missiles": null,
+      "kh_59_missile": null,
+      "kalibr_missile": null,
+      "kinzhal_missile": null,
+      "iskander_m_missile": null,
+      "iskander_k_missile": null,
+      "fighter_su_30_cm": null,
+      "fighter_su_34": 1,
+      "fighter_su_35": null,
+      "fighter_su_24m": null,
+      "fighter_su_25": null,
+      "helicopter": null,
+      "helicopter_k_52": null,
+      "helicopter_mi_8": null,
+      "plane_a_50": null,
+      "plane_il_22": null
     }
   ]
 }
